@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(243, 218, 198);
+    margin: 0px 10%;
+}
+h1{
+    text-align: center;
+    color: #5E4955;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+#divBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.botao{
+    background-color: #5E4955;
+    color: #F3DAC6;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px rgb(226, 180, 180);
+}
+#mensagem{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+li{
+    font-size: 20px;
+    margin: 5px;
+}
+a:hover{
+    color: rgb(12, 142, 165)
+}
+#hobbies{
+    display:flex;
+    justify-content: center;
+}
+#textoHobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagemGrande{
+    margin: 20px;
+    width: 300px;
+    height: 170px;
+    border-radius: 8px;
+}
+#tabela{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.imagemTabela{
+    vertical-align: middle;
+    width: 200px;
+    height: 120px;
+}
+.paisTabela{
+    font-size: 18px;
+    width: 50%;
+}
+#divTextoETabela{
+    display: grid;
+    place-items: center;
+}
+thead th{
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: #694b5c;
+    color: rgb(243, 218, 198)
+}
+tbody td{
+    display: table-cell;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+     ;
+}
+tr:nth-child(odd){
+    background-color: #dda6c5af;
+}
+tr:nth-child(even){
+    background-color: #dda6c5fd;
+}
